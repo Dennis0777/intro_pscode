@@ -2,3 +2,16 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+Start
+Start (Warehouse Map) from files
+Have preset starting point in Warehouse Map be Customer Service Desk
+Set Customer Service Desk location as a point on (X,Y) grid as (0,0)
+Set directional reference with (North, South, East, West) displayed in a compass manner on screen
+ Have various location points for sections of the warehouse set with information about each displayed when location is reached.
+When new points are reached reset base location to new coordinates so navigation can be directed from new base point.
+Give print readout on screen of current location on map in a (X,Y) coordinate manner and of destinations on the map.
+When user reaches any destination print readout on screen (Is this the destination You were looking for?) with a Y/N variable with (Y===Yes) and (N===No).
+    If (Y) variable is selected Print (Thanks for Shopping with us.) then end program and reset to Start.
+    If (N) variable is selected Print (Where would you like to go now?) then continue navigation as usual.
+End
+(Reset)
