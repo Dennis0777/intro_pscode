@@ -9,3 +9,4 @@ Player chances === 3 to guess right
     If player guess (<0) but (>=10) and not ===(CPU Value) player chances (-1) and print message Try Again 
     If player chances (===0) print message Game Over go to (End) and restart program.
 Player guess (===) CPU Value then print Congratulations go to (End) and restart program.
+End
