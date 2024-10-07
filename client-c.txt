@@ -2,3 +2,10 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+Start
+ Set value for packages to equal 1 package is equal to 2 products or (1pk===2pd)
+ Set value for cases to be 50 packages or (1C===50pk)
+Let beginning count Print readout === 0pd/0pk/0C
+When 1pk is entered into count let count print readout === 2pd/1pk/0C and increase in this manner till 50pk is counted.
+    When count is === to (100pd/50pk) then let alarm print (Full Case) and Print Ticket with Count of (100pd/50pk/1C) and Restart counter at (0pd/0pk/0C)
+End
